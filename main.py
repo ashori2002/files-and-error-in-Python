@@ -1,7 +1,6 @@
-f = open("test.txt","r")
+with open("test.txt","r") as myFile:
 
-print(f.read())
+    print(myFile.read())
 
 
-f.close()
 
