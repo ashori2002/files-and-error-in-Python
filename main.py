@@ -1,6 +1,7 @@
+names = []
 with open("test.txt","r") as myFile:
     for name in myFile:
-        print(name)
+        names.append(name)
 
-
+print(names)
 
