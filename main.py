@@ -1,6 +1,6 @@
 f = open("test.txt","r")
 
-content = f.read()
+print(f.read())
 
 
 f.close()
