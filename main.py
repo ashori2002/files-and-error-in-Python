@@ -1,7 +1,6 @@
 with open("test.txt","r") as myFile:
-    contex1 = myFile.readline()
-    contex2 = myFile.readline()
+    for name in myFile:
+        print(name)
 
-print(contex1)
-print(contex2)
+
 
